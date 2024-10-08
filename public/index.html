@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Your description here" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Your App Title" />
+    <meta property="og:description" content="A brief description of your app." />
+    <meta property="og:image" content="%PUBLIC_URL%/path/to/image.png" />
+    <meta property="og:url" content="https://yourappurl.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=YourFontFamily&display=swap" rel="stylesheet" />
+    
+    <title>Your App Title</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'YOUR_TRACKING_ID');
+    </script>
+  </body>
+</html>
